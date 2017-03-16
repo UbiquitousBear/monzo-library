@@ -1,0 +1,11 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "id": "https://api.monzo.com/schemas/account-collection.json",
+  "title": "Transaction Collection",
+  "type": "object",
+  "properties" : {
+    "transactions" : {
+      "type": "array"
+    }
+  }
+}

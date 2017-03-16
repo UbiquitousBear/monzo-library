@@ -1,0 +1,38 @@
+{
+    "name": "shamiln/monzo",
+    "description": "A PHP library representing data retrieved from Monzo's API",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Shamil Nunhuck",
+            "email": "shamil@shamil.co.uk"
+        }
+    ],
+    "minimum-stability": "dev",
+    "config": {
+        "bin-dir": "bin"
+    },
+    "autoload": {
+        "psr-4": {
+            "shamiln\\monzo\\": "src"
+        }
+    },
+    "archive": {
+        "exclude": [
+            "/spec",
+            "/phpspec.yml",
+            "/.*"
+        ]
+    },
+    "require": {
+        "php": "^7.0",
+        "pimple/pimple": "^3.0",
+        "guzzlehttp/guzzle": "^6.2",
+        "webmozart/json": "^1.2",
+        "shrikeh/collections": "^1.0"
+    },
+    "require-dev": {
+        "phpspec/phpspec": "^3.2"
+    }
+}

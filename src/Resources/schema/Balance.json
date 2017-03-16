@@ -1,0 +1,11 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "id": "https://api.monzo.com/schemas/balance.json",
+  "title": "Balance",
+  "type": "object",
+  "properties" : {
+    "balance": { "type": "integer" },
+    "currency": { "type": "string" },
+    "spend_today": { "type": "integer"}
+  }
+}
